@@ -4,7 +4,7 @@
 
     <groupId>com.mandrillapp.wrapper.lutung</groupId>
     <artifactId>lutung</artifactId>
-    <version>0.0.6-SNAPSHOT</version>
+    <version>0.0.6-SNAPSHOT-faveeo</version>
     <name>lutung</name>
     <description>Mandrill API Client for Java</description>
     <url>https://github.com/rschreijer/lutung</url>
@@ -61,6 +61,7 @@
                     </execution>
                 </executions>
             </plugin>
+            <!--  Is broken: removing
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
@@ -74,6 +75,7 @@
                     </execution>
                 </executions>
             </plugin>
+            -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
